@@ -14,4 +14,11 @@ foreach (string el in array)
         i++;
     }
 }
+i = 0;
+foreach (string el in newArray)
+{
+    //Console.WriteLine(el + " "+ el.Length);  
+    Console.Write(i + ") " + el + " ");
+    i++;
+}
 
