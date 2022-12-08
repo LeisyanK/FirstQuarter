@@ -3,7 +3,7 @@
 void Main()
 {
     Console.Clear();
-    string[] array = { "hello", "2", "world", ":-)" };
+    string[] array = {"Russia", "Denmark", "Kazan"}; //{"1234", "1567", "-2", "computer science"}; //{ "hello", "2", "world", ":-)" };
     string[] secondArray = {};
 
     Console.WriteLine("Исходный массив:");
@@ -33,12 +33,14 @@ string[] NewArray(string[] array, string[] newArray)
 void PrintArray(string[] array)
 {
     int i = 0;
+    Console.Write("[ ");
     foreach (string el in array)
     {
-        Console.Write(el + " ");
+        //Console.Write("\"");
+        Console.Write($"\"{el}\" ");
         i++;
     }
-    Console.WriteLine();
+    Console.WriteLine("]");
 }
 
 void Resize(ref string[] array, int newSize)
