@@ -13,7 +13,6 @@ void Main()
 
     Console.WriteLine("Новый массив:");
     PrintArray(secondArray);
-    
 }
 
 string[] NewArray(string[] array, string[] newArray)
